@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60320B22ABBAB1E00F96C9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D60320B12ABBAB1E00F96C9F /* GoogleService-Info.plist */; };
+		D61105AE2ABBBA6700FF2C58 /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61105AD2ABBBA6700FF2C58 /* FirebaseViewModel.swift */; };
+		D61105B02ABCC60500FF2C58 /* InformBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61105AF2ABCC60500FF2C58 /* InformBalanceView.swift */; };
 		D6C295CA2ABB916400776F97 /* set_payApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C295C92ABB916400776F97 /* set_payApp.swift */; };
 		D6C295CC2ABB916400776F97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C295CB2ABB916400776F97 /* ContentView.swift */; };
 		D6C295CE2ABB916500776F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C295CD2ABB916500776F97 /* Assets.xcassets */; };
 		D6C295D12ABB916500776F97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C295D02ABB916500776F97 /* Preview Assets.xcassets */; };
+		D6C295D92ABB92DA00776F97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C295D82ABB92DA00776F97 /* HomeView.swift */; };
+		D6C295DC2ABB951400776F97 /* ColorExtation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C295DB2ABB951400776F97 /* ColorExtation.swift */; };
+		D6C295DF2ABB959600776F97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C295DE2ABB959600776F97 /* Constants.swift */; };
+		FEEA0470859CFA0E648E529E /* Pods_set_pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6858180254FFBAE14E4A19 /* Pods_set_pay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BECE29772E79AB9FBD6C9F0 /* Pods-set-pay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-set-pay.release.xcconfig"; path = "Target Support Files/Pods-set-pay/Pods-set-pay.release.xcconfig"; sourceTree = "<group>"; };
+		4D1CF8A5344D3F3E33C238A4 /* Pods-set-pay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-set-pay.debug.xcconfig"; path = "Target Support Files/Pods-set-pay/Pods-set-pay.debug.xcconfig"; sourceTree = "<group>"; };
+		D60320B12ABBAB1E00F96C9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D61105AB2ABBB4CF00FF2C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61105AD2ABBBA6700FF2C58 /* FirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewModel.swift; sourceTree = "<group>"; };
+		D61105AF2ABCC60500FF2C58 /* InformBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformBalanceView.swift; sourceTree = "<group>"; };
+		D64F58F82ABB9F0F0057EDC4 /* set-pay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "set-pay.entitlements"; sourceTree = "<group>"; };
 		D6C295C62ABB916400776F97 /* set-pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "set-pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C295C92ABB916400776F97 /* set_payApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = set_payApp.swift; sourceTree = "<group>"; };
 		D6C295CB2ABB916400776F97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6C295CD2ABB916500776F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C295D02ABB916500776F97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C295D82ABB92DA00776F97 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D6C295DB2ABB951400776F97 /* ColorExtation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtation.swift; sourceTree = "<group>"; };
+		D6C295DE2ABB959600776F97 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DA6858180254FFBAE14E4A19 /* Pods_set_pay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_set_pay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +44,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEA0470859CFA0E648E529E /* Pods_set_pay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		355B677935D6B84830294A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6858180254FFBAE14E4A19 /* Pods_set_pay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D61105AC2ABBBA4800FF2C58 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D61105AD2ABBBA6700FF2C58 /* FirebaseViewModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		D6C295BD2ABB916400776F97 = {
 			isa = PBXGroup;
 			children = (
 				D6C295C82ABB916400776F97 /* set-pay */,
 				D6C295C72ABB916400776F97 /* Products */,
+				F8583B7D0F143FE89B129927 /* Pods */,
+				355B677935D6B84830294A8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +88,14 @@
 		D6C295C82ABB916400776F97 /* set-pay */ = {
 			isa = PBXGroup;
 			children = (
+				D61105AC2ABBBA4800FF2C58 /* model */,
+				D61105AB2ABBB4CF00FF2C58 /* Info.plist */,
+				D60320B12ABBAB1E00F96C9F /* GoogleService-Info.plist */,
+				D64F58F82ABB9F0F0057EDC4 /* set-pay.entitlements */,
+				D6C295DD2ABB957A00776F97 /* contsntes */,
+				D6C295DA2ABB94E900776F97 /* extations */,
 				D6C295C92ABB916400776F97 /* set_payApp.swift */,
-				D6C295CB2ABB916400776F97 /* ContentView.swift */,
+				D6C295D72ABB925800776F97 /* views */,
 				D6C295CD2ABB916500776F97 /* Assets.xcassets */,
 				D6C295CF2ABB916500776F97 /* Preview Content */,
 			);
@@ -67,6 +110,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D6C295D72ABB925800776F97 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D6C295CB2ABB916400776F97 /* ContentView.swift */,
+				D6C295D82ABB92DA00776F97 /* HomeView.swift */,
+				D61105AF2ABCC60500FF2C58 /* InformBalanceView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D6C295DA2ABB94E900776F97 /* extations */ = {
+			isa = PBXGroup;
+			children = (
+				D6C295DB2ABB951400776F97 /* ColorExtation.swift */,
+			);
+			path = extations;
+			sourceTree = "<group>";
+		};
+		D6C295DD2ABB957A00776F97 /* contsntes */ = {
+			isa = PBXGroup;
+			children = (
+				D6C295DE2ABB959600776F97 /* Constants.swift */,
+			);
+			path = contsntes;
+			sourceTree = "<group>";
+		};
+		F8583B7D0F143FE89B129927 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D1CF8A5344D3F3E33C238A4 /* Pods-set-pay.debug.xcconfig */,
+				0BECE29772E79AB9FBD6C9F0 /* Pods-set-pay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C295D42ABB916500776F97 /* Build configuration list for PBXNativeTarget "set-pay" */;
 			buildPhases = (
+				9416A091534B5DCFF6046077 /* [CP] Check Pods Manifest.lock */,
 				D6C295C22ABB916400776F97 /* Sources */,
 				D6C295C32ABB916400776F97 /* Frameworks */,
 				D6C295C42ABB916400776F97 /* Resources */,
+				4372B03AEAD2494DE4C0D68F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,16 +207,64 @@
 			files = (
 				D6C295D12ABB916500776F97 /* Preview Assets.xcassets in Resources */,
 				D6C295CE2ABB916500776F97 /* Assets.xcassets in Resources */,
+				D60320B22ABBAB1E00F96C9F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4372B03AEAD2494DE4C0D68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-set-pay/Pods-set-pay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-set-pay/Pods-set-pay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-set-pay/Pods-set-pay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9416A091534B5DCFF6046077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-set-pay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D6C295C22ABB916400776F97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61105B02ABCC60500FF2C58 /* InformBalanceView.swift in Sources */,
+				D6C295DF2ABB959600776F97 /* Constants.swift in Sources */,
+				D6C295D92ABB92DA00776F97 /* HomeView.swift in Sources */,
+				D6C295DC2ABB951400776F97 /* ColorExtation.swift in Sources */,
+				D61105AE2ABBBA6700FF2C58 /* FirebaseViewModel.swift in Sources */,
 				D6C295CC2ABB916400776F97 /* ContentView.swift in Sources */,
 				D6C295CA2ABB916400776F97 /* set_payApp.swift in Sources */,
 			);
@@ -182,7 +310,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +373,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,15 +394,18 @@
 		};
 		D6C295D52ABB916500776F97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1CF8A5344D3F3E33C238A4 /* Pods-set-pay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "set-pay/set-pay.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"set-pay/Preview Content\"";
 				DEVELOPMENT_TEAM = W49545S7WN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "set-pay/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,15 +426,18 @@
 		};
 		D6C295D62ABB916500776F97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BECE29772E79AB9FBD6C9F0 /* Pods-set-pay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "set-pay/set-pay.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"set-pay/Preview Content\"";
 				DEVELOPMENT_TEAM = W49545S7WN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "set-pay/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
