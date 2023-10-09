@@ -14,10 +14,8 @@
             filePath = "set-pay/views/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "53"
+            endingLineNumber = "53">
             <Locations>
                <Location
                   uuid = "9D080E6C-13BD-4911-A41C-79E5D7E37686 - 66ed3083da6c1f60"
@@ -77,10 +75,8 @@
             filePath = "set-pay/views/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "58"
+            endingLineNumber = "58">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
